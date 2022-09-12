@@ -32,7 +32,7 @@ public class IntroLabTest {
      */
     @Test(timeout = 10)
     public void testIntroMethod() {
-        String expected = "Yo what's up! My name is Cheryl!" +
+        String expected = "Yo what's up! My name is Cheryl! " +
                 "I like cats more than dogs! I'm hungry.";
         String actual = IntroLab.introMethod();
         assertEquals(expected, actual);
