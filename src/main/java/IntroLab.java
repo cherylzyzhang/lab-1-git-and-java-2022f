@@ -49,6 +49,11 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String introMethod() {
+        return printLabMessage("Yo what's up", "Cheryl", true,
+                "I'm hungry.");
+    }
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
