@@ -49,7 +49,7 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
-    public static String introMethod() {
+    public static String zha10941() {
         return printLabMessage("Yo what's up", "Cheryl", true,
                 "I'm hungry.");
     }
@@ -64,8 +64,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
-
+        System.out.println(zha10941());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.

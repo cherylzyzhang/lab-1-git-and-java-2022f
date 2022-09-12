@@ -31,10 +31,10 @@ public class IntroLabTest {
      * As a reference, we've included testExampleStudent above.
      */
     @Test(timeout = 10)
-    public void testIntroMethod() {
+    public void testZha10941() {
         String expected = "Yo what's up! My name is Cheryl! " +
                 "I like cats more than dogs! I'm hungry.";
-        String actual = IntroLab.introMethod();
+        String actual = IntroLab.zha10941();
         assertEquals(expected, actual);
     }
 }
